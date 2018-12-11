@@ -54,6 +54,10 @@ h1 {
     margin: 15px 0 !important;
 }
 
+.row {
+    margin: 25px 0;
+}
+
 /*===== GLOBAL =====*/
 a {
     text-decoration: none;
@@ -103,8 +107,8 @@ button {
     cursor: pointer;
 }
 button:hover {
-    background: #fff;
-    color: #4aaaa5;
+    background: #333;
+    color: #fff;
     box-shadow: none;
     border: none;
     transition: 0.2s all ease-in-out;
@@ -299,6 +303,7 @@ nav .container {
 }
 .body-container section {
     transition: 0.2s all ease-in-out;
+    text-align: center;
 }
 .body-container section:hover {
     transition: 0.2s all ease-in-out;
